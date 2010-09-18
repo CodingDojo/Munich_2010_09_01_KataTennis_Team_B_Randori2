@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="2c2ec643-d88e-4289-8a67-fdde1fc459e6" name="Florian@FLORIAN-PC 2010-09-01 20:49:43" runUser="Florian-PC\Florian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="96bdff75-9789-4ff9-98d6-bd2fd69ba88a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Florian_FLORIAN-PC 2010-09-01 20_49_43" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-01T20:49:43.3337382+02:00" queuing="2010-09-01T20:49:43.3337382+02:00" start="2010-09-01T20:49:43.3493382+02:00" finish="2010-09-01T20:49:43.6769388+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="7" executed="7" passed="6" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="When_Both_Players_Have_Same_Score_And_Player_One_Scores_Then_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="f8c7b819-6a34-de2a-2462-3dbba6f9ebbe">
+      <Execution id="f788e79e-ea05-4977-baa6-4fbc61134b3c" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Both_Players_Have_Same_Score_And_Player_One_Scores_Then_Game_Is_Not_Over" />
+    </UnitTest>
+    <UnitTest name="When_Both_Players_Have_40_Score_And_Player_One_Scores_Two_Times_Then_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="1a284bb6-1df7-59be-91fb-b3c48199cc31">
+      <Execution id="718e292c-c9f3-4cf0-baf8-5aacc6c44e5a" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Both_Players_Have_40_Score_And_Player_One_Scores_Two_Times_Then_Game_Is_Not_Over" />
+    </UnitTest>
+    <UnitTest name="When_Player_One_Scores_And_Player_Two_Has_One_Point_Less_Then_Game_Is_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="a7ff91a2-ea8b-73a8-1b6e-6feb5085b15d">
+      <Execution id="9c217dc7-b1d7-46ed-b70f-19b97491553a" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Player_One_Scores_And_Player_Two_Has_One_Point_Less_Then_Game_Is_Over" />
+    </UnitTest>
+    <UnitTest name="When_Player_Two_Has_Advantage_And_Player_One_Scores_Three_Times_Game_Is_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="103cf69a-23e5-c1a5-12bf-39532ce8fd97">
+      <Execution id="57206553-36c2-4337-bb65-a3fc756eb7c0" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Player_Two_Has_Advantage_And_Player_One_Scores_Three_Times_Game_Is_Over" />
+    </UnitTest>
+    <UnitTest name="When_Both_Players_Have_40_Score_And_Player_Two_Scores_Two_Times_Then_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="86e19e65-bef3-df19-f228-ba46c4abc032">
+      <Execution id="9b152998-8577-4129-a588-c9240d5c778a" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Both_Players_Have_40_Score_And_Player_Two_Scores_Two_Times_Then_Game_Is_Not_Over" />
+    </UnitTest>
+    <UnitTest name="When_Both_Players_Have_No_Points_Then_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="7c4a2daa-a308-5e30-c27c-7ff1d3bb7360">
+      <Execution id="c28f38f5-134e-4461-bbb8-cad300f08fbd" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Both_Players_Have_No_Points_Then_Game_Is_Not_Over" />
+    </UnitTest>
+    <UnitTest name="When_Player_Two_Has_Advantage_And_Player_One_Scores_One_Time_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="c0c250c1-b76d-a919-f7e6-9bff7771e76e">
+      <Execution id="5eb10fe0-f59f-4327-a5dc-976d4f72413a" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Player_Two_Has_Advantage_And_Player_One_Scores_One_Time_Game_Is_Not_Over" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="103cf69a-23e5-c1a5-12bf-39532ce8fd97" executionId="57206553-36c2-4337-bb65-a3fc756eb7c0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1a284bb6-1df7-59be-91fb-b3c48199cc31" executionId="718e292c-c9f3-4cf0-baf8-5aacc6c44e5a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c4a2daa-a308-5e30-c27c-7ff1d3bb7360" executionId="c28f38f5-134e-4461-bbb8-cad300f08fbd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="86e19e65-bef3-df19-f228-ba46c4abc032" executionId="9b152998-8577-4129-a588-c9240d5c778a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7ff91a2-ea8b-73a8-1b6e-6feb5085b15d" executionId="9c217dc7-b1d7-46ed-b70f-19b97491553a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c0c250c1-b76d-a919-f7e6-9bff7771e76e" executionId="5eb10fe0-f59f-4327-a5dc-976d4f72413a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f8c7b819-6a34-de2a-2462-3dbba6f9ebbe" executionId="f788e79e-ea05-4977-baa6-4fbc61134b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="57206553-36c2-4337-bb65-a3fc756eb7c0" testId="103cf69a-23e5-c1a5-12bf-39532ce8fd97" testName="When_Player_Two_Has_Advantage_And_Player_One_Scores_Three_Times_Game_Is_Over" computerName="FLORIAN-PC" duration="00:00:00.0124181" startTime="2010-09-01T20:49:43.3649382+02:00" endTime="2010-09-01T20:49:43.5989386+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="57206553-36c2-4337-bb65-a3fc756eb7c0">
+    </UnitTestResult>
+    <UnitTestResult executionId="718e292c-c9f3-4cf0-baf8-5aacc6c44e5a" testId="1a284bb6-1df7-59be-91fb-b3c48199cc31" testName="When_Both_Players_Have_40_Score_And_Player_One_Scores_Two_Times_Then_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0002477" startTime="2010-09-01T20:49:43.5989386+02:00" endTime="2010-09-01T20:49:43.5989386+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="718e292c-c9f3-4cf0-baf8-5aacc6c44e5a">
+    </UnitTestResult>
+    <UnitTestResult executionId="c28f38f5-134e-4461-bbb8-cad300f08fbd" testId="7c4a2daa-a308-5e30-c27c-7ff1d3bb7360" testName="When_Both_Players_Have_No_Points_Then_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0002074" startTime="2010-09-01T20:49:43.5989386+02:00" endTime="2010-09-01T20:49:43.6145387+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c28f38f5-134e-4461-bbb8-cad300f08fbd">
+    </UnitTestResult>
+    <UnitTestResult executionId="9b152998-8577-4129-a588-c9240d5c778a" testId="86e19e65-bef3-df19-f228-ba46c4abc032" testName="When_Both_Players_Have_40_Score_And_Player_Two_Scores_Two_Times_Then_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0015647" startTime="2010-09-01T20:49:43.6145387+02:00" endTime="2010-09-01T20:49:43.6145387+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9b152998-8577-4129-a588-c9240d5c778a">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c217dc7-b1d7-46ed-b70f-19b97491553a" testId="a7ff91a2-ea8b-73a8-1b6e-6feb5085b15d" testName="When_Player_One_Scores_And_Player_Two_Has_One_Point_Less_Then_Game_Is_Over" computerName="FLORIAN-PC" duration="00:00:00.0002327" startTime="2010-09-01T20:49:43.6145387+02:00" endTime="2010-09-01T20:49:43.6301387+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c217dc7-b1d7-46ed-b70f-19b97491553a">
+    </UnitTestResult>
+    <UnitTestResult executionId="5eb10fe0-f59f-4327-a5dc-976d4f72413a" testId="c0c250c1-b76d-a919-f7e6-9bff7771e76e" testName="When_Player_Two_Has_Advantage_And_Player_One_Scores_One_Time_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0314315" startTime="2010-09-01T20:49:43.6301387+02:00" endTime="2010-09-01T20:49:43.6613387+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5eb10fe0-f59f-4327-a5dc-976d4f72413a">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.IsTrue failed. </Message>
+          <StackTrace>   at TennisGameTests.TennisGameTest.When_Player_Two_Has_Advantage_And_Player_One_Scores_One_Time_Game_Is_Not_Over() in E:\ProjekteCSharp\TennisGameTests\TennisGameTests\UnitTest1.cs:line 126
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f788e79e-ea05-4977-baa6-4fbc61134b3c" testId="f8c7b819-6a34-de2a-2462-3dbba6f9ebbe" testName="When_Both_Players_Have_Same_Score_And_Player_One_Scores_Then_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0002499" startTime="2010-09-01T20:49:43.6613387+02:00" endTime="2010-09-01T20:49:43.6769388+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f788e79e-ea05-4977-baa6-4fbc61134b3c">
+    </UnitTestResult>
+  </Results>
+</TestRun>

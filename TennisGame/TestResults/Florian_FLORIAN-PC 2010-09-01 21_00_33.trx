@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ba3f5ac0-c287-4bce-ad30-2a2c94e7ab5c" name="Florian@FLORIAN-PC 2010-09-01 21:00:33" runUser="Florian-PC\Florian" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="96bdff75-9789-4ff9-98d6-bd2fd69ba88a">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="E:\ProjekteCSharp\TennisGameTests\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="Florian_FLORIAN-PC 2010-09-01 21_00_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2010-09-01T21:00:33.9421539+02:00" queuing="2010-09-01T21:00:33.9421539+02:00" start="2010-09-01T21:00:33.9421539+02:00" finish="2010-09-01T21:00:34.2541544+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="When_Player_One_Scores_Two_Times_And_Player_Two_Does_Not_Score_Then_Game_Is_Not_Over" storage="e:\projektecsharp\tennisgametests\tennisgametests\bin\debug\tennisgametests.dll" id="a8e12918-e87a-627f-a103-78c8ae03b8e1">
+      <Execution id="d150363e-5e27-4f0c-91dd-23609db52731" />
+      <TestMethod codeBase="E:/ProjekteCSharp/TennisGameTests/TennisGameTests/bin/Debug/TennisGameTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TennisGameTests.TennisGameTest, TennisGameTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="When_Player_One_Scores_Two_Times_And_Player_Two_Does_Not_Score_Then_Game_Is_Not_Over" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="a8e12918-e87a-627f-a103-78c8ae03b8e1" executionId="d150363e-5e27-4f0c-91dd-23609db52731" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d150363e-5e27-4f0c-91dd-23609db52731" testId="a8e12918-e87a-627f-a103-78c8ae03b8e1" testName="When_Player_One_Scores_Two_Times_And_Player_Two_Does_Not_Score_Then_Game_Is_Not_Over" computerName="FLORIAN-PC" duration="00:00:00.0123642" startTime="2010-09-01T21:00:33.9577539+02:00" endTime="2010-09-01T21:00:34.2385544+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d150363e-5e27-4f0c-91dd-23609db52731">
+    </UnitTestResult>
+  </Results>
+</TestRun>
